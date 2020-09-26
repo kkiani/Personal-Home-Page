@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    background-color: RGBA(64, 70, 84, 1.0);
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    background-image: url('background-math2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h5{
+    font-size: 1.75em;
+}
+
+h6{
+    font-size: 1em;
+}
+
+ul{
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: RGBA(217, 193, 121, 1.00);
+}
+
+.font-5{
+    font-size: 0.75em;
+}
+
+.text-secondary {
+    color: RGBA(217, 193, 121, 1.00) !important;
+}
+
+.ovarlay-color{
+    background: RGBA(20, 49, 42, 1.00);
+}
+
+.ovarlay-shadow{
+    background: RGBA(64, 70, 84, 0.70);
+}
