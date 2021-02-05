@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+:root{
+    --green: RGBA(20, 49, 42, 1.00);
+    --gold: RGBA(217, 193, 121, 1.00);
+    --blue: RGBA(64, 70, 84, 1.0);
+    --blue-light: RGBA(217, 193, 121, 0.1);
+}
+
 body{
     background-color: RGBA(64, 70, 84, 1.0);
     color: white;
@@ -11,20 +18,49 @@ body{
     background-attachment: fixed;
 }
 
+h1{
+    color: var(--gold);
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
 h5{
-    font-size: 1.75em;
+    font-size: 1.8em;
 }
 
 h6{
     font-size: 1em;
+    color: var(--gold);
+}
+
+p{
+    margin-bottom: 1em;
 }
 
 ul{
-    font-size: 1.5em;
-    list-style-type: none;
-    padding: 0%;
-    margin: 0%;
+    list-style: none;
+    /* padding: 0%; */
+    /* margin: 0%; */
+    text-transform: capitalize;
 }
+
+mark{
+    background-color: var(--blue-light);
+    color: inherit;
+}
+
+/* li {
+    list-style-type: "✣";
+  } */
+
+ul li::before {
+    content: "\2723";  
+    color: var(--gold); 
+    font-weight: lighter; 
+    display: inline-block; 
+    width: 1.2em; 
+    margin-left: -1em; 
+  } 
 
 a{
     text-decoration: none;
@@ -49,4 +85,15 @@ a:hover{
 
 .ovarlay-shadow{
     background: RGBA(64, 70, 84, 0.70);
+}
+
+.footer{
+    margin-top: 1.8em;
+    padding-top: 1.8em;
+    border: 0px;
+    border-top: 1px;
+    border-style: dashed;
+    border-color: var(--gold);
+    text-align: center;
+    font-size: 0.8em;
 }
